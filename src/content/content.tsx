@@ -2,6 +2,7 @@ import React from 'react';
 import './content.css'
 import yetAnotherTrainingStatsAppPicture from './YetAnotherTrainingStatsApp.png'
 import personalPortfolioPicture from './PersonalPortfolio.png'
+import { AiFillGithub } from 'react-icons/ai';
 
 function Content() {
   return (
@@ -32,6 +33,9 @@ function Content() {
             </li>
             <li>
               Link: <a href="https://www.tobiashansen.no">https://www.tobiashansen.no</a>
+            </li>
+            <li>
+              <AiFillGithub style={{ position: "relative", bottom: "-3px", marginRight: "3px" }} /><a href="https://github.com/TobiasHansen/tobiashansen.no">GitHub link</a>
             </li>
           </ul>
         </div>

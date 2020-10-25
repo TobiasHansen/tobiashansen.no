@@ -2,6 +2,10 @@
   font-family: "Lato", arial, sans-serif;
 }
 
+h3 {
+  color: #fc5200
+}
+
 li {
   margin-bottom: 10px;
 }

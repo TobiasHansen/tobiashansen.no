@@ -3,6 +3,7 @@ import React from 'react';
 import './header.css';
 import profile from './profile.jpg'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { FaStrava } from 'react-icons/fa';
 
 function Header() {
   return (
@@ -20,6 +21,9 @@ function Header() {
             </a>
             <a href="https://github.com/TobiasHansen" className="icon-link">
               <AiFillGithub size={45} />
+            </a>
+            <a href="https://www.strava.com/athletes/19003690" className="icon-link">
+              <FaStrava size={45} />
             </a>
           </div>
         </div>

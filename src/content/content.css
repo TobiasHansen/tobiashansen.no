@@ -6,7 +6,7 @@
 }
 
 .projects-content {
-  max-width: 1000px;
+  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -16,7 +16,7 @@
 
 .project-item {
   margin: 20px;
-  max-width: 600px;
+  max-width: 400px;
   padding: 10px 35px;
   background: white;
   display: flex;
@@ -24,6 +24,5 @@
 }
 
 .project-image {
-  width: 450px;
-  height: 250px;
+  width: 95%;
 }
